@@ -20,6 +20,8 @@
     <module>microservice-gateway</module>
     <module>microservice-eureka</module>
     <module>microservice-config</module>
+    <module>microservice-authentication</module>
+    <module>microservice-room</module>
 <!--    <module>microservice-student</module>-->
 <!--    <module>microservice-course</module>-->
   </modules>
