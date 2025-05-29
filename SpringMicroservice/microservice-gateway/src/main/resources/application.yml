@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8081
 
 spring:
   application:
@@ -11,11 +11,15 @@ spring:
       discovery:
         locator:
           enabled: true
-#      routes:
-#        - id: students
-#          uri: http://localhost:8090
-#          predicates:
-#            - Path=/api/student/**
+      routes:
+        - id: auth-service
+          uri: http://localhost:8080
+          predicates:
+            - Path=/auth/**
+        - id: room-route
+          uri: http://localhost:8090
+          predicates:
+            - Path=/api/habitacion/**
 #        - id: courses
 #          uri: http://localhost:9090
 #          predicates:

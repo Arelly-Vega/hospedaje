@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Bean;
 import java.util.List;
 import java.util.Set;
 
+
 @SpringBootApplication
 public class MicroserviceAuthenticationApplication {
 
