@@ -22,6 +22,7 @@
     <module>microservice-config</module>
     <module>microservice-authentication</module>
     <module>microservice-room</module>
+    <module>microservice-product</module>
 <!--    <module>microservice-student</module>-->
 <!--    <module>microservice-course</module>-->
   </modules>

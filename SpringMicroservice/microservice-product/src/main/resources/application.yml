@@ -1,0 +1,27 @@
+#spring.application.name=microservice-product
+
+server:
+  port: 8091
+
+spring:
+  application:
+    name: msvc-product
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/productDb
+    username: root
+    password: 75156554
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+  config:
+    import: optional:configserver:http://localhost:8888
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    eureka-server-u-r-l-context: http://localhost:8761/eureka

@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-gateway" />
         <module name="msvc-authentication" />
+        <module name="microservice-product" />
         <module name="microservice-eureka" />
         <module name="microservice-config" />
         <module name="microservice-room" />
@@ -20,6 +21,7 @@
       <module name="microservice-config" options="-parameters" />
       <module name="microservice-eureka" options="-parameters" />
       <module name="microservice-gateway" options="-parameters" />
+      <module name="microservice-product" options="-parameters" />
       <module name="microservice-room" options="-parameters" />
       <module name="msvc-authentication" options="-parameters" />
     </option>
